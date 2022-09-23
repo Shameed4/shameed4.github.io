@@ -1,0 +1,23 @@
+.invis {
+    display: none;
+}
+
+#confetti {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    animation-name: confetti;
+    animation-duration: 2s;
+}
+
+@keyframes confetti {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 100%;
+    }
+}
